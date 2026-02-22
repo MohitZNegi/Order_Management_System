@@ -13,11 +13,9 @@ function OrderItem({ order }) {
             <td>{order.productName}</td>
             <td>${order.amount}</td>
             <td>
-                {order.status === "Completed" ? (
-                    <span style={{ color: "green" }}>Completed</span>
-                ) : (
-                    <span style={{ color: "orange" }}>Pending</span>
-                )}
+                <span className={`status ${order.status}`}>
+                    {order.status}
+                </span>
             </td>
             <td>
                 {order.status === "Pending" && (
