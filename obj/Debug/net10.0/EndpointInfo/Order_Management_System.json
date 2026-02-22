@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "Order Management System",
+    "title": "Order_Management_System",
     "version": "1.0"
   },
   "paths": {

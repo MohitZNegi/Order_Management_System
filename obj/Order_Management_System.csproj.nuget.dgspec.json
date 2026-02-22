@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order Management System.csproj": {}
+    "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order_Management_System.csproj": {}
   },
   "projects": {
-    "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order Management System.csproj": {
+    "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order_Management_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order Management System.csproj",
-        "projectName": "Order Management System",
-        "projectPath": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order Management System.csproj",
+        "projectUniqueName": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order_Management_System.csproj",
+        "projectName": "Order_Management_System",
+        "projectPath": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order_Management_System.csproj",
         "packagesPath": "C:\\Users\\Mohit.DESKTOP-5H1SSN8\\.nuget\\packages\\",
         "outputPath": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\obj\\",
         "projectStyle": "PackageReference",

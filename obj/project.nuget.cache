@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JOZ4ZMcNO18=",
+  "dgSpecHash": "nOruV1xd0fQ=",
   "success": true,
-  "projectFilePath": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order Management System\\Order Management System.csproj",
+  "projectFilePath": "D:\\CERTIFICATES AND SELF LEARNING\\2026_React\\Order_Management_System\\Order_Management_System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohit.DESKTOP-5H1SSN8\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Mohit.DESKTOP-5H1SSN8\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

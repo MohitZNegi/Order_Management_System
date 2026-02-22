@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Order_Management_System.Models;
 using System.Linq;
+using Order_Management_System.DTOs;
 
 namespace Order_Management_System.Controllers
 {
@@ -21,11 +22,17 @@ namespace Order_Management_System.Controllers
 
         // POST: api/orders
         [HttpPost]
-        public ActionResult<Order> CreateOrder(Order newOrder)
+        public ActionResult<Order> CreateOrder(OrderDTO dto)
         {
-            newOrder.Id = nextId++;
-            newOrder.Status = "Pending";
-            newOrder.CreatedAt = DateTime.Now;
+            var newOrder = new Order
+            {
+                Id = nextId++,
+                CustomerName = dto.CustomerName,
+                ProductName = dto.ProductName,
+                Amount = dto.Amount,
+                Status = "Pending",
+                CreatedAt = DateTime.Now
+            };
 
             orders.Add(newOrder);
 
